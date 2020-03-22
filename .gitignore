@@ -15,6 +15,10 @@ gen/
 out/
 release/
 
+/build
+
+.gradle
+
 # Gradle files
 .gradle/
 build/
@@ -47,6 +51,7 @@ captures/
 .idea/modules.xml
 # Comment next line if keeping position of elements in Navigation Editor is relevant for you
 .idea/navEditor.xml
+.idea/*
 
 # Keystore files
 # Uncomment the following lines if you do not want to check your keystore files in.
@@ -55,6 +60,17 @@ captures/
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild
+
+*.iml
+spotify-app-remote
+spotify-app-remote-release-0.7.0
+spotify-auth-release
+spotify-auth-release-1.2.3
+*.gradle
+gradlew
+gradlew.bat
+gradle.properties
+gradle/*
 
 # Google Services (e.g. APIs or Firebase)
 # google-services.json
@@ -80,3 +96,9 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+app/proguard-rules.pro
+
+app/src/main/res/apikey.properties
+
+app/src/main/res/values/secret.xml
